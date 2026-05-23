@@ -60,7 +60,7 @@ Connect the ESP32 to the L298N like this:
 
 ## Circuit Diagram
 
-![Circuit Diagram](circuitdiagram.png)
+![Circuit Diagram](circuit_diagram.png)
 
 ## How to upload the code
 
