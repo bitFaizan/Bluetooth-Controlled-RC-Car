@@ -1,11 +1,10 @@
-# Bluetooth-Controlled-RC-Car
-### A Bluetooth-controlled robot car you drive from your phone
+# PUSHBOT
 
 ---
 
 ## What is this?
 
-Pushbot 1 is a 4-wheeled robot car that you control wirelessly from your smartphone over Bluetooth. You send commands from a free app on your phone, and the robot moves forward, backward, turns, and more.
+Pushbot is a 4-wheeled robot car that you control wirelessly from your smartphone over Bluetooth. You send commands from a free app on your phone, and the robot moves forward, backward, turns, and more.
 
 It's built using:
 - An **ESP32** microcontroller (the brain)
