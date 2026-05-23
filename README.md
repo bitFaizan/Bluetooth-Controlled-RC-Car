@@ -19,10 +19,10 @@ It's built using:
 ### Hardware
 | Part | Purpose |
 |---|---|
-| ESP32 NodeMCU board | The brain of the robot |
+| ESP32 Devkit board | The brain of the robot |
 | L298N motor driver module | Drives the 4 motors |
 | 4× DC motors (3–6V) | The wheels |
-| LiPo battery | Powers everything |
+| LiPo/Li-ion battery | Powers everything |
 | Step-down buck converter | Converts battery voltage to safe ESP32 voltage |
 | Rocker switch | On/off switch |
 | Jumper wires | Connections |
@@ -66,7 +66,7 @@ Connect the ESP32 to the L298N like this:
 4. Go to **Tools → Port** and select the correct port (usually called COM3, COM4, etc. on Windows or /dev/ttyUSB0 on Linux)
 5. Click the **Upload** button (→ arrow icon)
 6. Once done, open **Tools → Serial Monitor**, set baud rate to **115200**
-7. You should see: `Bluetooth initiated. Pair with Pushbot 1` ✅
+7. You should see: `Bluetooth initiated. Pair with Pushbot 1` 
 
 ---
 
