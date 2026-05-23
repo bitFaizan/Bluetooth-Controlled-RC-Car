@@ -10,7 +10,7 @@ It's built using:
 - An **ESP32** microcontroller (the brain)
 - An **L298N motor driver** (controls the motors)
 - **4 DC gear motors** (the wheels)
-- A **LiPo battery** (the power source)
+- A **LiPo/18650 Li-ion battery** (the power source)
 
 ---
 
@@ -32,7 +32,7 @@ It's built using:
 - ESP32 board support installed in Arduino IDE ([guide here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html))
 
 ### App (on your phone — Android only ⚠️)
-- **Bluetooth RC Controller** by broxcode (free on Google Play)
+- **Bluetooth RC Controller** by broxcode (https://bluetooth-rc-controller.en.aptoide.com/app)
 > ⚠️ This uses Classic Bluetooth, which iPhones do not support. Android only.
 
 ---
@@ -50,12 +50,9 @@ Connect the ESP32 to the L298N like this:
 | GPIO 25 | BIN2 | Controls Right motor direction |
 | GPIO 26 | ENB | Controls Right motor speed |
 
-> 💡 **Motors going the wrong way?** Just swap the OUT1/OUT2 (or OUT3/OUT4) wires on the L298N. No code change needed.
+ 💡 **Motors going the wrong way?** Just swap the OUT1/OUT2 (or OUT3/OUT4) wires on the L298N. No code change needed.
 
----
-## Wiring
 
-...wiring table...
 
 ## Circuit Diagram
 
@@ -63,7 +60,7 @@ Connect the ESP32 to the L298N like this:
 
 ## How to upload the code
 
-1. Download and open `final_pushbot_maybe.ino` in Arduino IDE
+1. Download and open `pushbot.ino` in Arduino IDE
 2. Go to **Tools → Board** and select **ESP32 Dev Module**
 3. Plug your ESP32 into your computer via USB
 4. Go to **Tools → Port** and select the correct port (usually called COM3, COM4, etc. on Windows or /dev/ttyUSB0 on Linux)
